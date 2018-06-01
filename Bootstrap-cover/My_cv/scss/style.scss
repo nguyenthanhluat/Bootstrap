@@ -1,0 +1,102 @@
+@import 'vendor/_bootstrap.scss';
+
+$primary-color:#1500ce;
+$background-color:#2eccfc;
+$text-color: #0d0d0e;
+$font: 16px;
+
+body{
+    padding-bottom:0;
+    font-family: 'Open Sans' , Arial, Tahoma;
+    color: $text-color;
+    background: $background-color;
+    font-size: $font;
+}
+
+.container-main{
+    background: #eff5be;
+    margin-top: 150px;
+    padding: 0 30px 30px 30px;
+}
+
+header{
+    margin-top: -100px;
+    min-height: 10px;
+    overflow: auto;
+}
+
+.primary, h2{
+    color: $primary-color;
+}
+
+header h1{
+    margin: 0;
+    padding: 200px 0 0 0;
+    font-size: 2.2em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+#person{
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: -150px;
+}
+
+#line{
+    width: 100%;
+    margin: 50px 0 50px 0;
+    height: 2px;
+}
+
+.logo{
+    width: 30%;
+    margin: 10px 0 10px 0;
+}
+
+.contact-list{
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li{
+    list-style: none;
+    font-weight: bold;
+    line-height: 3.2em;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.icon{
+    width: 5%;
+}
+
+.media{
+   background: $background-color;
+   padding: 10px;
+   color: #fff;
+   border-radius: 10px;
+}
+
+.media-left{
+    padding-top: 30px;
+}
+
+.progress{
+    margin-bottom: 30px;
+}
+
+h2{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+}

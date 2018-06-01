@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Social Network</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <img class="logo-header" src="img/group2.png">
+        <form class="form-inline">
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>          
+          <br>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Remember me
+            </label>
+          </div>
+        </form>
+      </div>
+    </header>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="member.html">Member</a></li>
+            <li><a href="group.html">Group</a></li>
+            <li><a href="photo.html">Photo</a></li>
+            <li><a href="profile.html">Profile</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Wall</h3>
+              </div>
+              <div class="panel-body">
+                <form>
+                  <div class="form-group">
+                    <textarea type="text" class="form-control" placeholder="Write On The Wall"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-default">Submit</button> 
+                  <div class="pull-right">
+                    <div class="btn-group" role="group" aria- aria-label="">
+                      <button type="button" class="btn btn-default"><i class="fas fa-pencil-alt"></i> Text</button> 
+                      <button type="button" class="btn btn-default"><i class="fas fa-file-video"></i> Video</button> 
+                      <button type="button" class="btn btn-default"><i class="fas fa-file-image"></i> Image</button> 
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-md-2">
+                    <a href="profile.html" class="post-avatar thumbnail">
+                      <img src="img/user.png">
+                      <div class="text-center">User1</div>
+                    </a>
+                    <div class="likes text-center">14 likess</div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="bubber">
+                      <div class="pointer thumbnail">
+                        <P>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam, nhà từ thiện, tác giả và chủ tịch tập đoàn Microsoft, hãng phần mềm khổng lồ mà ông cùng với Paul Allen đã sáng lập ra. Ông luôn có mặt trong danh sách những người giàu nhất trên thế giới.[4] và là người giàu nhất thế giới từ 1995 tới 2014, ngoại trừ tháng 3/2013, 3/2012, tháng 3/2011 (hạng 2) và 2008 khi ông chỉ xếp thứ ba.</P>
+                      </div>
+                      <div class="pointer-border"></div>
+                      <p class="action-post">
+                        <a href="#">Comment - </a>
+                        <a href="#">Like - </a>
+                        <a href="#">Follow - </a>
+                        <a href="#">Share</a>
+                      </p>
+                      <div class="comment-form">
+                        <form class="form-inline">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Comment">
+                          </div>
+                          <button type="button" class="btn btn-default">Send</button> 
+                        </form>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="comments">
+                        <div class="comment">
+                          <a class="comment-ava pull-left" href="#">
+                            <img class="user" src="img/user.png">
+                          </a>
+                          <div class="comment-text thumbnail">
+                            <p>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam.</p>
+                          </div>
+                        </div>
+                        <div class="comment">
+                          <a class="comment-ava pull-left" href="#">
+                            <img class="user" src="img/user.png">
+                          </a>
+                          <div class="comment-text thumbnail">
+                            <p>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam.</p>
+                          </div>
+                        </div>
+                        <div class="comment">
+                          <a class="comment-ava pull-left" href="#">
+                            <img class="user" src="img/user.png">
+                          </a>
+                          <div class="comment-text thumbnail">
+                            <p>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-md-2">
+                    <a href="profile.html" class="post-avatar thumbnail">
+                      <img src="img/user.png">
+                      <div class="text-center">User1</div>
+                    </a>
+                    <div class="likes text-center">14 likess</div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="bubber">
+                      <div class="pointer thumbnail">
+                        <P>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam, nhà từ thiện, tác giả và chủ tịch tập đoàn Microsoft, hãng phần mềm khổng lồ mà ông cùng với Paul Allen đã sáng lập ra. Ông luôn có mặt trong danh sách những người giàu nhất trên thế giới.[4] và là người giàu nhất thế giới từ 1995 tới 2014, ngoại trừ tháng 3/2013, 3/2012, tháng 3/2011 (hạng 2) và 2008 khi ông chỉ xếp thứ ba.</P>
+                      </div>
+                      <div class="pointer-border"></div>
+                      <p class="action-post">
+                        <a href="#">Comment - </a>
+                        <a href="#">Like - </a>
+                        <a href="#">Follow - </a>
+                        <a href="#">Share</a>
+                      </p>
+                      <div class="comment-form">
+                        <form class="form-inline">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Comment">
+                          </div>
+                          <button type="button" class="btn btn-default">Send</button> 
+                        </form>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="comments">
+                        <div class="comment">
+                          <a class="comment-ava pull-left" href="#">
+                            <img class="user" src="img/user.png">
+                          </a>
+                          <div class="comment-text thumbnail">
+                            <p>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam.</p>
+                          </div>
+                        </div>
+                        <div class="comment">
+                          <a class="comment-ava pull-left" href="#">
+                            <img class="user" src="img/user.png">
+                          </a>
+                          <div class="comment-text thumbnail">
+                            <p>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam.</p>
+                          </div>
+                        </div>
+                        <div class="comment">
+                          <a class="comment-ava pull-left" href="#">
+                            <img class="user" src="img/user.png">
+                          </a>
+                          <div class="comment-text thumbnail">
+                            <p>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-md-2">
+                    <a href="profile.html" class="post-avatar thumbnail">
+                      <img src="img/user.png">
+                      <div class="text-center">User1</div>
+                    </a>
+                    <div class="likes text-center">14 likess</div>
+                  </div>
+                  <div class="col-md-10">
+                    <div class="bubber">
+                      <div class="pointer thumbnail">
+                        <P>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam, nhà từ thiện, tác giả và chủ tịch tập đoàn Microsoft, hãng phần mềm khổng lồ mà ông cùng với Paul Allen đã sáng lập ra. Ông luôn có mặt trong danh sách những người giàu nhất trên thế giới.[4] và là người giàu nhất thế giới từ 1995 tới 2014, ngoại trừ tháng 3/2013, 3/2012, tháng 3/2011 (hạng 2) và 2008 khi ông chỉ xếp thứ ba.</P>
+                      </div>
+                      <div class="pointer-border"></div>
+                      <p class="action-post">
+                        <a href="#">Comment - </a>
+                        <a href="#">Like - </a>
+                        <a href="#">Follow - </a>
+                        <a href="#">Share</a>
+                      </p>
+                      <div class="comment-form">
+                        <form class="form-inline">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Comment">
+                          </div>
+                          <button type="button" class="btn btn-default">Send</button> 
+                        </form>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="comments">
+                        <div class="comment">
+                          <a class="comment-ava pull-left" href="#">
+                            <img class="user" src="img/user.png">
+                          </a>
+                          <div class="comment-text  thumbnail">
+                            <p>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam.</p>
+                          </div>
+                        </div>
+                        <div class="comment">
+                          <a class="comment-ava pull-left" href="#">
+                            <img class="user" src="img/user.png">
+                          </a>
+                          <div class="comment-text thumbnail">
+                            <p>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam.</p>
+                          </div>
+                        </div>
+                        <div class="comment">
+                          <a class="comment-ava pull-left" href="#">
+                            <img class="user" src="img/user.png">
+                          </a>
+                          <div class="comment-text thumbnail">
+                            <p>Thanh Luật (sinh ngày 19 tháng 08 năm 1997) là một doanh nhân người Việt Nam.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">My friends</h3>
+              </div>
+              <div class="panel-body">
+                <ul>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="thumbnail" href="#">
+                      <img src="img/user.png">
+                    </a>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-primary">View all friends</button> 
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Lastest Groups</h3>
+              </div>
+              <div class="panel-body">
+                <div class="groups">
+                  <div class="group thumbnail">
+                    <h4>
+                      <img src="img/group1.png">
+                      <a href="#" >Group 1</a>
+                    </h4>
+                    <p>Send convallis est in ante sodate.</p>
+                  </div>
+                  <div class="group thumbnail">
+                    <h4>
+                      <img src="img/group3.png">
+                      <a href="#" >Group 2</a>
+                    </h4>
+                    <p>Send convallis est in ante sodate.</p>
+                  </div>
+                  <div class="group thumbnail">
+                    <h4>
+                      <img src="img/group2.png">
+                      <a href="#" >Group 3</a>
+                    </h4>
+                    <p>Send convallis est in ante sodate.</p>
+                  </div>
+                  <button type="button" class="btn btn-primary">View all Groups</button> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <h5>@Copy right by Thanh Luat - nguyenthanhluat.it@gmail.com</h5>
+      </div>
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

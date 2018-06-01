@@ -1,0 +1,76 @@
+Project 1: App sales website
+- bootstrap Navbar
+-Bootstrap icons
+-jumbotron Showcase
+-accordion Menu
+-12 col gird
+-image styling
+-boostrap forms
+-media Queries
+Project 2: Portfolio resume
+-sass/.scss Files
+-progress bar
+-using variables
+-media objects
+-list groups
+-alerts
+-12 col gird
+-image styling
+Project 3: Social network
+-nested grids & Elements
+-image modal w gallery plugin
+- button groups
+-tooltips
+-image classes
+-media queries
+-login form
+Project 4: Agency Landing
+-less css pre-processor
+-font-awesome icons
+-jumbotron showcase
+-scroll down effect
+-media queries
+-navbar effect
+Project 5: Photo Gallery
+-photo grid
+-photo lightbox script
+-tabbed categories
+-tooltips
+-image carousel
+Project 6: CMS admin template
+-bootswatch tools
+-search filter input
+-login page
+-post page
+-breadcrumbs & Pagination
+-Table Sorter Script
+Project 7: Hosting site
+-bootswatch tools
+-content carousel
+-stacked icons
+-login modal
+-pricing tables
+-form-styling
+Project 8: Ecommerce Template
+-Less setup
+-customized tabbed widget
+- custom header
+-product detail pages
+-product grid
+Project 9: Business Theme
+-animate.css
+-inner pages
+-wow scroll animation
+-mobile optimization
+-custom navbar w subtext
+Project 10: Blog website
+-custom tab widget
+-single page post
+-widget thumbnail
+-inner pages
+-blog posts
+-mobile optimization
+
+Link download: 
+-cout: http://scout-app.io/classic/
+-bootstrap 3.3.7: https://getbootstrap.com/docs/3.3/getting-started/
